@@ -1,0 +1,154 @@
+﻿@model List<DuAn.Models.Order>
+@{
+    Layout = "~/views/shared/_AdminLayout.cshtml";
+}
+<h2>Danh Sách Đơn Hàng</h2>
+<a href="/Admin/Index" class="btn btn-primary">Trở về Trang Tổng quản lý</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã Đơn Hàng</th>
+            <th>Thời Gian Đặt</th>
+            <th>Trạng Thái</th>
+            <th>Tổng Tiền</th>
+            <th>Lý do hủy đơn hàng</th>
+            <th>Chi Tiết</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var donHang in Model)
+        {
+            var lyDoHuy = donHang.ChiTietDonHangs.FirstOrDefault()?.lyDoHuyDon ?? "";
+            <tr>
+                <td>@donHang.MaDonHang</td>
+                <td>@donHang.ThoiGianDat.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>
+                    <form id="form-@donHang.MaDonHang" data-maDonHang="@donHang.MaDonHang" style="display:inline;">
+                        <select name="trangThai" class="form-control"
+                                onchange="onTrangThaiChange(@donHang.MaDonHang, this)">
+                            @if (donHang.TrangThai == "Chua_Van_Chuyen")
+                            {
+                                <option value="Chua_Van_Chuyen" selected>Chưa Vận Chuyển</option>
+                                <option value="Da_Van_Chuyen">Đã Vận Chuyển</option>
+                                <option value="Hoan_Thanh">Hoàn Thành</option>
+                                <option value="Huy_Don">Hủy Đơn Hàng</option>
+                            }
+                            else if (donHang.TrangThai == "Da_Van_Chuyen")
+                            {
+                                <option value="Da_Van_Chuyen" selected>Đã Vận Chuyển</option>
+                                <option value="Hoan_Thanh">Hoàn Thành</option>
+                                <option value="Huy_Don">Hủy Đơn Hàng</option>
+                            }
+                            else if (donHang.TrangThai == "Hoan_Thanh" || donHang.TrangThai == "Huy_Don")
+                            {
+                                <option value="@donHang.TrangThai" selected>
+                                    @(donHang.TrangThai == "Hoan_Thanh" ? "Hoàn Thành" : "Hủy Đơn")
+                                </option>
+                            }
+                        </select>
+
+                        <!-- Input lý do hủy (ẩn mặc định) -->
+                        <div id="lyDoHuyDon-@donHang.MaDonHang" style="display:none; margin-top:10px;">
+                            <input type="text" class="form-control" placeholder="Nhập lý do hủy đơn..."
+                                   id="inputLyDoHuyDon-@donHang.MaDonHang" />
+                            <button type="button" class="btn btn-danger mt-2"
+                                    onclick="capNhatTrangThai(@donHang.MaDonHang)">
+                                Xác Nhận Hủy
+                            </button>
+                        </div>
+                    </form>
+                </td>
+                <td>@donHang.TongTien.ToString("C")</td>
+                <td>
+                    @if (donHang.TrangThai == "Huy_Don")
+                    {
+                        <span class="text-danger">@lyDoHuy</span>
+                    }
+                </td>
+                <td>
+                    <button type="button" class="btn btn-info btn-sm" data-bs-toggle="collapse"
+                            data-bs-target="#details-@donHang.MaDonHang">
+                        Xem Chi Tiết
+                    </button>
+                    <div id="details-@donHang.MaDonHang" class="collapse">
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Tên Món</th>
+                                    <th>Loại</th>
+                                    <th>Số Lượng</th>
+                                    <th>Địa chỉ nhận hàng</th>
+                                    <th>Giá</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var chiTiet in donHang.ChiTietDonHangs)
+                                {
+                                    <tr>
+                                        <td>
+                                            @(chiTiet.MaMonAnNavigation?.TenMonAn ?? chiTiet.MaComboNavigation?.TenCombo ?? "N/A")
+                                        </td>
+                                        <td>
+                                            @(chiTiet.MaMonAn.HasValue ? "Món Ăn" : "Combo")
+                                        </td>
+                                        <td>@chiTiet.SoLuong</td>
+                                        <td>@chiTiet.DiaChiNhanHang</td>
+                                        <td>@chiTiet.Gia.ToString() VND</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    function onTrangThaiChange(maDonHang, selectElement) {
+        const trangThai = selectElement.value;
+
+        if (trangThai === "Huy_Don") {
+            $("#lyDoHuyDon-" + maDonHang).show();
+        } else {
+            $("#lyDoHuyDon-" + maDonHang).hide();
+            capNhatTrangThai(maDonHang);
+        }
+    }
+
+    function capNhatTrangThai(maDonHang) {
+        const select = $("#form-" + maDonHang + " select");
+        const trangThai = select.val();
+
+        let lyDo = "";
+
+        if (trangThai === "Huy_Don") {
+            lyDo = $("#inputLyDoHuyDon-" + maDonHang).val();
+            if (!lyDo) {
+                alert("Vui lòng nhập lý do hủy đơn.");
+                return;
+            }
+        }
+
+        $.ajax({
+            url: '@Url.Action("CapNhatTrangThai", "Order")',
+            type: 'POST',
+            data: {
+                MaDonHang: maDonHang,
+                TrangThai: trangThai,
+                LyDoHuyDon: lyDo
+            },
+            success: function (response) {
+                alert(response.message || 'Cập nhật trạng thái thành công.');
+                location.reload(); // Reload để hiển thị lý do hủy
+            },
+            error: function (xhr, status, error) {
+                alert('Lỗi khi cập nhật: ' + error);
+            }
+        });
+    }
+</script>

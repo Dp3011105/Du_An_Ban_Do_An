@@ -1,0 +1,122 @@
+﻿@model List<DuAn.Models.Combo>
+<style>
+    /* Đảm bảo các thành phần trong view đồng bộ với light/dark mode */
+    body.light .bg-light {
+        background-color: #f8f9fa !important; /* Màu nền sáng cho form */
+    }
+
+    body.dark .bg-light {
+        background-color: #2a2a2a !important; /* Màu nền tối cho form */
+    }
+
+    body.light .card {
+        background-color: white;
+        color: black;
+    }
+
+    body.dark .card {
+        background-color: #1f1f1f;
+        color: white;
+    }
+
+    body.light .text-muted {
+        color: #6c757d !important; /* Màu chữ phụ trong light mode */
+    }
+
+    body.dark .text-muted {
+        color: #a0a0a0 !important; /* Màu chữ phụ trong dark mode */
+    }
+
+    body.light .text-primary {
+        color: #0d6efd !important; /* Màu chính trong light mode */
+    }
+
+    body.dark .text-primary {
+        color: #4dabf7 !important; /* Màu chính nhạt hơn trong dark mode */
+    }
+
+    body.light .text-danger {
+        color: #dc3545 !important; /* Màu giá trong light mode */
+    }
+
+    body.dark .text-danger {
+        color: #ff6b6b !important; /* Màu giá nhạt hơn trong dark mode */
+    }
+
+    body.light .btn-outline-primary {
+        color: #0d6efd;
+        border-color: #0d6efd;
+    }
+
+        body.light .btn-outline-primary:hover {
+            background-color: #0d6efd;
+            color: white;
+        }
+
+    body.dark .btn-outline-primary {
+        color: #4dabf7;
+        border-color: #4dabf7;
+    }
+
+        body.dark .btn-outline-primary:hover {
+            background-color: #4dabf7;
+            color: black;
+        }
+
+    body.light .form-control {
+        background-color: white;
+        color: black;
+        border-color: #ced4da;
+    }
+
+    body.dark .form-control {
+        background-color: #333;
+        color: white;
+        border-color: #555;
+    }
+
+    /* Video shadow đồng bộ */
+    body.light .shadow-lg {
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    }
+
+    body.dark .shadow-lg {
+        box-shadow: 0 1rem 3rem rgba(255, 255, 255, 0.1) !important;
+    }
+</style>
+<h2 class="text-center my-4">Danh Sách Combo</h2>
+
+<!-- Form tìm kiếm -->
+<form method="get" class="mb-4">
+    <div class="form-group">
+        <label for="searchName">Tìm kiếm theo tên:</label>
+        <input type="text" name="searchName" id="searchName" class="form-control" value="@Context.Request.Query["searchName"]" />
+    </div>
+    <br />
+    <div class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+
+    </div>
+</form>
+
+<!-- Hiển thị danh sách combo -->
+<div class="row mt-4">
+    @foreach (var combo in Model)
+    {
+        // Kiểm tra nếu TrangThai là true
+        if (combo.TrangThai == true) // Chỉ hiển thị khi TrangThai là true
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <img class="card-img-top img-fluid" src="@combo.DuongDanHinh" alt="@combo.TenCombo" style="object-fit: cover; height: 200px;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">@combo.TenCombo</h5>
+                        <p class="card-text text-muted">@combo.MoTa</p>
+                        <p class="card-text text-danger fw-bold">Giá: @combo.Gia.ToString("N0") VND</p>
+                        <a href="@Url.Action("ComboDetails", "Home", new { id = combo.MaCombo })" class="btn btn-primary mt-auto">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

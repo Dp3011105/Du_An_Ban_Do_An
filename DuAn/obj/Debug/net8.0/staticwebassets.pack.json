@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DuAn.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DuAn.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\css\\app-creative-rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\app-creative-rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\css\\icons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\icons.min.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\css\\vendor.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor.min.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\fonts\\Nunito-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Bold.woff"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\fonts\\Nunito-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-Regular.woff"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\fonts\\Nunito-SemiBold.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Nunito-SemiBold.woff"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\fonts\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\remixicon.woff2"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\fonts\\unicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\unicons.woff2"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\bg-pattern.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-pattern.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\brands\\bitbucket.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\bitbucket.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\dribbble.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\brands\\dropbox.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\dropbox.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\brands\\g-suite.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\g-suite.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\brands\\github.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\github.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\slack.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\flags\\germany.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\germany.jpg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\flags\\italy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\italy.jpg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\flags\\russia.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\russia.jpg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\flags\\spain.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\spain.jpg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\flags\\us.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\us.jpg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\logo-dark-sm.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-dark-sm.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\logo-sm.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-sm.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\svg\\email-campaign.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\svg\\email-campaign.svg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\users\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\users\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-3.jpg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\users\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-4.jpg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\users\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-5.jpg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\images\\users\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\js\\app.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\app.min.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\js\\hyper-config.js",
+      "PackagePath": "staticwebassets\\assets\\js\\hyper-config.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\js\\pages\\demo.crm-dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\demo.crm-dashboard.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\js\\ui\\component.todo.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ui\\component.todo.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\js\\vendor.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor.min.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\assets\\vendor\\apexcharts\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\apexcharts\\apexcharts.min.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\video\\Logo.png",
+      "PackagePath": "staticwebassets\\video\\Logo.png"
+    },
+    {
+      "Id": "D:\\FPOLY\\Ky5\\Block2\\Quản lý phần mềm với Agile\\DuAnNhom1\\DuAn\\DuAn\\wwwroot\\video\\Video.mp4",
+      "PackagePath": "staticwebassets\\video\\Video.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DuAn.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DuAn.props",
+      "PackagePath": "build\\DuAn.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DuAn.props",
+      "PackagePath": "buildMultiTargeting\\DuAn.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DuAn.props",
+      "PackagePath": "buildTransitive\\DuAn.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

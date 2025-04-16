@@ -1,0 +1,142 @@
+﻿@{
+    Layout = "~/views/shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Trang Quản Lý Admin";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CRM Dashboard - Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5.3 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        .card h5 {
+            font-size: 1rem;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+        }
+
+        .widget-icon {
+            font-size: 2rem;
+        }
+
+        .chart-box {
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <div class="container py-5">
+        <h2 class="mb-4 text-center">Chào mừng đến với trang Admin</h2>
+
+        <div class="row g-3">
+            <div class="col-md-6 col-xl-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="text-muted">Campaign Sent</h5>
+                        <h3>9,184</h3>
+                        <p class="text-success"><i class="bi bi-arrow-up"></i> 3.27%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="text-muted">New Leads</h5>
+                        <h3>3,254</h3>
+                        <p class="text-danger"><i class="bi bi-arrow-down"></i> 5.38%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="text-muted">Deals</h5>
+                        <h3>861</h3>
+                        <p class="text-success"><i class="bi bi-arrow-up"></i> 4.87%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="text-muted">Booked Revenue</h5>
+                        <h3>$253k</h3>
+                        <p class="text-success"><i class="bi bi-arrow-up"></i> 11.7%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4" />
+
+        <div class="row g-3">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">Campaign Overview</div>
+                    <div class="card-body">
+                        <canvas id="campaignChart" class="chart-box"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">Revenue Trend</div>
+                    <div class="card-body">
+                        <canvas id="revenueChart" class="chart-box"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap + Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx1 = document.getElementById('campaignChart').getContext('2d');
+        new Chart(ctx1, {
+            type: 'bar',
+            data: {
+                labels: ['Total Sent', 'Reached', 'Opened'],
+                datasets: [{
+                    label: 'Campaign Stats',
+                    data: [6510, 3487, 1568],
+                    backgroundColor: ['#ffc107', '#0d6efd', '#198754']
+                }]
+            },
+            options: { responsive: true }
+        });
+
+        const ctx2 = document.getElementById('revenueChart').getContext('2d');
+        new Chart(ctx2, {
+            type: 'line',
+            data: {
+                labels: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4'],
+                datasets: [{
+                    label: 'Revenue',
+                    data: [42025, 55000, 61000, 74651],
+                    borderColor: '#0d6efd',
+                    fill: false,
+                    tension: 0.3
+                }]
+            },
+            options: { responsive: true }
+        });
+    </script>
+
+</body>
+
+</html>
